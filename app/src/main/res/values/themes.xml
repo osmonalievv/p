@@ -67,4 +67,78 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:textStyle">bold</item>
     </style>
+    <style name="N1">
+        <item name="android:textSize">36sp</item>
+        <item name="android:text">#1</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="N2">
+        <item name="android:textSize">36sp</item>
+        <item name="android:text">#2</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="N3">
+        <item name="android:textSize">36sp</item>
+        <item name="android:text">#3</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="Nick">
+        <item name="android:text">Abobus</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+    </style>
+    <style name="rating_lvl">
+        <item name="android:text">Rating: 7</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+    </style>
+    <style name="level">
+        <item name="android:text">Level: Advanced</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+    </style>
+    <style name="game_history">
+        <item name="android:text">Game History</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="profile_settings">
+        <item name="android:text">Profile Settings</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:centerX">10sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="change_nick">
+        <item name="android:text">Change Username</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="share">
+        <item name="android:text">Share</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    <style name="geohisload">
+        <item name="android:text">GeoHis</item>
+        <item name="android:textSize">64sp</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+
 </resources>

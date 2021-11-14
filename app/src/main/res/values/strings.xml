@@ -10,4 +10,12 @@
     <string name="train_your_memory">Train Your Memory</string>
     <string name="events_on_map">Events on Map</string>
     <string name="map">Map</string>
+    <string name="n1">#1</string>
+    <string name="n2">#2</string>
+    <string name="n3">#3</string>
+    <string name="randmoj">deny</string>
+    <string name="image1">arrow</string>
+    <string name="menu">Menu</string>
+    <string name="Profile">Profile</string>
+    <string name="Rating">Rating</string>
 </resources>

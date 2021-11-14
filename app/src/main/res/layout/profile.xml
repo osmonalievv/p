@@ -1,9 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/yellowGH">
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="202sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="40sp"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_rectangle_24profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/game_history"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:background="@drawable/ic_rectangle_24profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4"
+            style="@style/share"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:background="@drawable/ic_rectangle_24profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            style="@style/profile_settings"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7sp"
+            android:background="@drawable/ic_rectangle_24profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3"
+            style="@style/change_nick"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/image1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="10sp"
+        android:src="@drawable/arrow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image1"
+        android:id="@+id/settings1"
+        android:src="@drawable/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginEnd="10sp"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraint"
@@ -25,18 +100,21 @@
 
             <ImageView
                 android:id="@+id/imageView6"
+                android:contentDescription="@string/image1"
                 android:layout_width="129dp"
                 android:layout_height="match_parent"
                 app:srcCompat="@drawable/menu" />
 
             <ImageView
                 android:id="@+id/imageView7"
+                android:contentDescription="@string/image1"
                 android:layout_width="156dp"
                 android:layout_height="25dp"
                 app:srcCompat="@drawable/profile" />
 
             <ImageView
                 android:id="@+id/imageView9"
+                android:contentDescription="@string/image1"
                 android:layout_width="123dp"
                 android:layout_height="25dp"
                 app:srcCompat="@drawable/rating" />
@@ -56,25 +134,82 @@
                 android:layout_width="117dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Menu" />
+                android:text="@string/menu" />
 
             <TextView
                 style="@style/toolbar"
                 android:layout_width="168dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Profile" />
+                android:text="@string/Profile" />
 
             <TextView
                 style="@style/toolbar"
                 android:layout_width="113dp"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="Rating" />
+                android:text="@string/Rating" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="130sp"
+            android:layout_marginTop="75sp"
+            android:background="@color/orangeGH"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:contentDescription="@string/image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24sp"
+            android:src="@drawable/profile_ava"
+            app:layout_constraintBottom_toBottomOf="@+id/button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/button" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/Nick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            android:layout_marginStart="10sp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/rating_lvl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toTopOf="@+id/imageView8"
+            android:layout_marginStart="10sp"/>
+
+        <TextView
+            style="@style/level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            android:layout_marginStart="10sp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

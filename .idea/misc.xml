@@ -5,10 +5,13 @@
       <map>
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/arrow.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/ava_mini.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/ava_mini2.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/button_bg.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/button_bg1.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/ic_rectangle_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/ic_rectangle_24profile.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/line_4.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/logo.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/menu.xml" value="0.26614583333333336" />
@@ -18,7 +21,8 @@
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/sd.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/drawable/settings.xml" value="0.26614583333333336" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/layout/profile.xml" value="0.25" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/layout/loading_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/layout/profile.xml" value="0.264" />
         <entry key="..\:/Users/Aijan/AndroidStudioProjects/geohis2/app/src/main/res/layout/rating.xml" value="0.264" />
       </map>
     </option>
