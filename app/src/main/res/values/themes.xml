@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.MyApplication" parent="Theme.AppCompat.DayNight.DarkActionBar">
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -139,6 +139,42 @@
         <item name="android:fontFamily">@font/ranchers</item>
         <item name="android:textColor">#FFFFFFFF</item>
     </style>
+
+
+
+    <style name="trainyourmem">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">Train Your Memory</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+
+
+
+    </style>
+    <style name="next">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">NEXT</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Geosphere">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">Geosphere</item>
+        <item name="android:fontFamily">@font/ranchers</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:gravity">center</item>
+
+
+
+    </style>
+    <style name="Theme.Geohis.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Geohis.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Geohis.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

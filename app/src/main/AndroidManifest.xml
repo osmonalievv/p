@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Geohis">
         <activity
+            android:name=".Third_activity"
+            android:exported="false" />
+        <activity
+            android:name=".Secondactivity"
+            android:exported="false"
+            android:label="@string/title_activity_secondactivity"
+            android:theme="@style/Theme.Geohis.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,6 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
